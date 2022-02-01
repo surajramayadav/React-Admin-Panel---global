@@ -1,0 +1,83 @@
+.wizard-profile {
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+  border-radius: 6px;
+  background-color: #fff;
+  margin-top: 10vh;
+}
+
+.wizard-profile > div:first-child {
+  text-align: center;
+  padding: 1rem 0rem 5rem 0rem;
+}
+
+.navigationBarActive{
+  background-color: #e91e63;
+  color: white !important;
+}
+
+.navigationBar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4f4f4;
+}
+
+.wizard-form {
+  padding: 5rem 10rem 5rem 10rem;
+}
+
+.navigationBar > div {
+  width: 100%;
+  text-align: center;
+  color: #e91e63;
+  border-radius: 4px;
+  padding: 0.7rem 0rem;
+  cursor: pointer;
+}
+
+.wizard h2,
+.wizard h4,
+.wizard h4 {
+  font-weight: normal;
+}
+
+.wizard-card-icon {
+  color: #fff;
+  /* background-color: #ffa726; */
+  height: 100%;
+  width: 10rem;
+  color: #abacad;
+}
+
+.wizard-account > div {
+  margin-top: 5rem;
+}
+
+.wizard-account > div > div:first-child {
+  text-align: center;
+  padding: 1rem 0rem 5rem 0rem;
+}
+
+.wizard-account-icon {
+  color: #fff;
+  height: 100%;
+  width: 10rem;
+  color: #abacad;
+}
+
+@media screen and (max-width: 480px) {
+  .wizard-form {
+    padding: 5rem 3rem 5rem 3rem;
+  }
+  .navigationBar > div {
+    padding: 0rem 0rem;
+  }
+  .wizard-profile h2 {
+    font-size: 2rem;
+  }
+  .wizard-profile h4 {
+    font-size: 1rem;
+  }
+  .wizard-profile h5 {
+    font-size: 1rem;
+  }
+}
